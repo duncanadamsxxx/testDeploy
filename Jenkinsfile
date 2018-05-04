@@ -9,8 +9,8 @@ pipeline {
 				checkout scm
 				sh "ls -l"
 				sh "mvn clean package"
+                }
         }
-
         stage('Build image') {
            /* This builds the actual image; synonymous to
            * docker build on the command line */
