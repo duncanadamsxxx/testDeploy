@@ -12,7 +12,7 @@ public class HelloWorld extends HttpServlet {
 
     public void init() throws ServletException {
         // Do required initialization
-        message = "Hello World # Jenkins - Test 4 ";
+        message = "Hello World # Jenkins - Test 5 ";
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response)
